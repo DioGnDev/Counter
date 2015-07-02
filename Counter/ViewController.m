@@ -21,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     count = 0;
+    self.digit.text = [NSString stringWithFormat:@"%d", count];
 }
 
 - (void)didReceiveMemoryWarning {
